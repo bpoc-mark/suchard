@@ -1,3 +1,153 @@
 .sect_1{
-    background-color: red;
+    
+    &__wrapper {
+
+        padding-top: 143px;
+        padding-bottom: 184px;
+
+        @include is-sp {
+            padding-top: 74px;
+        }
+
+        .l-wrap {
+
+                @include is-sp {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                // HEADING 
+                .heading_title {
+                    @include font-line(70);
+                    color: #E58041;
+                    font-weight: 700;
+                    text-align: center;
+                    padding-bottom: 50px;
+                    line-height: 1;
+                }
+
+                // FOUR CIRCLE
+                .sect_1__circle {
+                    line-height: 0;
+                    text-align: center;
+                    padding-bottom: 100px;
+
+                    @include is-sp {
+                        padding-bottom: 67px;
+                    }
+
+                    .circle-1 {
+                        background: #E58041;
+                        width: 10px;
+                        height: 10px;
+                        display: inline-block;
+                        border-radius: 20px;
+                        margin: 0 12px;
+                    }
+                }
+
+                // CONTENTS
+                .content {
+                    width: 729px;
+                    margin: 0 auto;
+
+                    @include is-sp {
+                        width: 100%;
+                    }
+
+                    // COLUMN1
+                    .cont_1 {
+                        display: flex;
+                        justify-content: space-between;
+                        border-bottom: 1px dotted #5A3C1E;
+                        padding: 0 20px;
+                        padding-bottom: 14px;
+                        margin-bottom: 40px;
+
+                        @include is-sp {
+                            flex-direction: column;
+                        }
+
+                        .col_1 {
+                            display: flex;
+                            align-items: center;
+                            color: #5A3C1E;
+
+                            @include is-sp {
+                                flex-direction: column;
+                               align-items: flex-start;
+                               padding-bottom: 15px;
+                            }
+                           
+
+                            .number {
+                                @include font-line(16);
+                                font-weight: 700;
+                                font-family: noto-sans-cjk-jp, sans-serif;
+                            }
+
+                            .barrier {
+                                height: 30px;
+                                background-color: #5A3C1E;
+                                width: 1px;
+                                margin: 0 20px;
+
+                                @include is-sp {
+                                    display: none;
+                                }
+
+                            }
+    
+                            .para_1 {
+                                @include font-line(18);
+                                font-weight: 400;
+                                font-family: noto-sans-cjk-jp, sans-serif;
+
+                                @include is-sp {
+                                   @include font-line(16);
+                                }
+
+                            }
+
+                        }
+
+                        // COLUMN 2
+                        .col_2 {
+                            display: flex;
+                            align-items: center;
+
+                            @include is-sp {
+                                justify-content: flex-end;
+                            }
+
+                            .read_more {
+                                font-weight: 400;
+                                font-family: noto-sans-cjk-jp, sans-serif;
+                                @include font-line(16);
+                                color: #E58041;
+                                margin-right: 9px;
+                            }
+
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+   
+                    }
+
+                }
+
+           
+
+        }
+
+    }
+
+    // .l_wrap {
+
+    //     @include is-sp {
+
+    //     }
+    // }
 }
