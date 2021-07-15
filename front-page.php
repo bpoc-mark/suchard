@@ -68,9 +68,6 @@
             </div>
         </div>
     </section>
-
-
-
     <section>2</section>
     <section>3</section>
     <section>4</section>
