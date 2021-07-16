@@ -40,7 +40,6 @@
                             <td>¥500</td>
                         </tr>
                     </table>
-
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
                 </div>
