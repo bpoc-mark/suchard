@@ -108,6 +108,16 @@
 						display: block;
 					}
 				}
+
+				.space {
+					@include is-pc {
+						display: none;
+					}
+
+					@include is-sp {
+						display: block;
+					}
+				}
 			}
 
 			.txt {
@@ -170,6 +180,10 @@
 				width: 100%;
 			}
 
+			@include is-max(320px) {
+				padding: 15px 20px;
+			}
+
 			.txt {
 				color: #39aa36;
 				font-weight: 700;
@@ -190,6 +204,11 @@
 			@include is-sp {
 				width: 100%;
 				margin: 20px 0 0 0;
+				justify-content: flex-start;
+			}
+
+			@include is-max(320px) {
+				padding: 15px 20px;
 			}
 
 			.txt {

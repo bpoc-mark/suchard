@@ -576,6 +576,7 @@ template{display:none}
 .u-d-n-pc{display:none !important}
 .sect_3__pack .col-2 img{display:none}
 .sect_3__pack .col-2 .desc br{display:block}
+.sect_3__pack .col-2 .desc .space{display:none}
 }@media only screen and (max-width:1091px){.l-wrap{width:100%}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
@@ -802,11 +803,14 @@ template{display:none}
 .sect_3__pack .col-2 .title{padding:0 0 45px 0}
 .sect_3__pack .col-2 .desc{padding:30px 0}
 .sect_3__pack .col-2 .desc br{display:none}
+.sect_3__pack .col-2 .desc .space{display:block}
 .sect_3__pack .col-2 .txt{padding:20px 0}
 .sect_3__pack .col-2 table{padding:20px 0}
 .sect_3__contact_info{-ms-flex-wrap:wrap;flex-wrap:wrap;padding:35px 0 0 0}
 .sect_3__contact_info .line{width:100%}
-.sect_3__contact_info .phone{width:100%;margin:20px 0 0 0}
+.sect_3__contact_info .phone{width:100%;margin:20px 0 0 0;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+}@media only screen and (max-width:320px){.sect_3__contact_info .line{padding:15px 20px}
+.sect_3__contact_info .phone{padding:15px 20px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}
