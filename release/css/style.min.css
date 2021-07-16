@@ -492,6 +492,26 @@ template{display:none}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
 .sect_1{background-color:red}
+.sect_3{background:#e58041}
+.sect_3__wrapper{position:relative;padding:150px 0 90px 0}
+.sect_3__takeout img{position:absolute;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);top:0;left:50%}
+.sect_3__pack{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:735px;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin:0 auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.sect_3__pack .col-1{width:220px}
+.sect_3__pack .col-1 img{width:100%;padding-bottom:15px}
+.sect_3__pack .col-2{width:500px;padding-left:30px}
+.sect_3__pack .col-2 img{width:100%;padding-bottom:15px}
+.sect_3__pack .col-2 img:last-child{padding-bottom:0}
+.sect_3__pack .col-2 .title{color:#fbf1e8;font-weight:700;line-height:1.5;text-align:center;font-size:3.125rem}
+.sect_3__pack .col-2 .desc{color:#fbf1e8;font-weight:400;padding:15px 20px;border-bottom:2px dotted #fbf1e8;font-size:1rem}
+.sect_3__pack .col-2 .txt{color:#fbf1e8;font-weight:400;padding:20px;border-bottom:2px dotted #fbf1e8;font-size:1rem}
+.sect_3__pack .col-2 table{width:100%;padding:20px 10px}
+.sect_3__pack .col-2 table td{color:#fbf1e8;font-weight:700;font-size:1.875rem}
+.sect_3__pack .col-2 table td:nth-of-type(even){text-align:right}
+.sect_3__contact_info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 auto;padding:60px 0 0 0;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
+.sect_3__contact_info .line{background:#fbf1e8;padding:15px 44px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.sect_3__contact_info .line .txt{color:#39aa36;font-weight:700;padding-left:20px;line-height:1;font-size:2rem}
+.sect_3__contact_info .phone{background:#fbf1e8;padding:15px 44px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.sect_3__contact_info .phone .txt{color:#5a3c1e;font-weight:700;padding-left:20px;line-height:1;font-size:2rem}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
@@ -499,7 +519,7 @@ template{display:none}
 .l-container.is-column2{margin:0 auto}
 .l-container.is-column3{margin:0 auto}
 .l-header__inner{width:1090px;margin-left:auto;margin-right:auto;padding-left:20px;padding-right:20px}
-.l-wrap{width:1090px;margin-left:auto;margin-right:auto;padding-left:20px;padding-right:20px}
+.l-wrap{width:1090px;margin-left:auto;margin-right:auto}
 .l-wrap--2col{width:700px}
 .c-button01:after{right:18px;width:12px;height:12px}
 .c-button01:hover{opacity:.7;filter:alpha(opacity=70)}
@@ -554,6 +574,7 @@ template{display:none}
 .p-navigation .btn-menu{display:none}
 .testimonial__speech{font-size:1rem;line-height:2}
 .u-d-n-pc{display:none !important}
+.sect_3__pack .col-2 img{display:none}
 }@media only screen and (max-width:1091px){.l-wrap{width:100%}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
@@ -772,6 +793,18 @@ template{display:none}
 .u-pl-40{padding-left:20px !important}
 .u-pl-45{padding-left:22px !important}
 .u-pl-50{padding-left:25px !important}
+.sect_3__wrapper{padding:150px 0 35px 0}
+.sect_3__wrapper .l-wrap{padding-left:20px;padding-right:20px}
+.sect_3__pack .col-1{width:100%;display:none}
+.sect_3__pack .col-2{width:100%;padding:0}
+.sect_3__pack .col-2 img{display:block}
+.sect_3__pack .col-2 .title{padding:0 0 45px 0}
+.sect_3__pack .col-2 .desc{padding:30px 0}
+.sect_3__pack .col-2 .txt{padding:20px 0}
+.sect_3__pack .col-2 table{padding:20px 0}
+.sect_3__contact_info{-ms-flex-wrap:wrap;flex-wrap:wrap;padding:35px 0 0 0}
+.sect_3__contact_info .line{width:100%}
+.sect_3__contact_info .phone{width:100%;margin:20px 0 0 0}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}
