@@ -1,6 +1,9 @@
         </div>
         <div class="page__footer">
-            footer
+            <p class="footer_text">
+                © 2021 SUCHARD All Rights Reserved. <br>
+                Produced by ジーングロス
+            </p>
         </div>
     </main>
 

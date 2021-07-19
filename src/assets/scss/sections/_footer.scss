@@ -1,0 +1,13 @@
+.page{
+    &__footer{
+        .footer_text{
+            @include font-line(16, 24);
+            font-family: noto-sans-cjk-jp,sans-serif;
+            font-weight: 400;
+            color: #fff;
+            background-color: #725944;
+            text-align: center;
+            padding: 40px 0 50px;
+        }
+    }
+}
