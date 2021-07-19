@@ -14,7 +14,7 @@
                 <div class="col-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_1.png" alt="">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_3.png" alt="">
                 </div>
 
                 <div class="col-2">
@@ -41,7 +41,7 @@
                         </tr>
                     </table>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/pack_3.png" alt="">
                 </div>
             </div>
             <div class="sect_3__contact_info">

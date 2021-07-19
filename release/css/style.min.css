@@ -809,7 +809,8 @@ template{display:none}
 .sect_3__contact_info{-ms-flex-wrap:wrap;flex-wrap:wrap;padding:35px 0 0 0}
 .sect_3__contact_info .line{width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .sect_3__contact_info .phone{width:100%;margin:20px 0 0 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-}@media only screen and (max-width:320px){.sect_3__contact_info .line{padding:15px 20px}
+}@media only screen and (max-width:320px){.sect_3__pack .col-2 table td{font-size:1.5rem}
+.sect_3__contact_info .line{padding:15px 20px}
 .sect_3__contact_info .phone{padding:15px 20px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}

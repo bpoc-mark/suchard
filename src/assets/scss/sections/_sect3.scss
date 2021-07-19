@@ -152,6 +152,10 @@
 					&:nth-of-type(even) {
 						text-align: right;
 					}
+
+					@include is-max(320px) {
+						@include font-line(24);
+					}
 				}
 			}
 		}
