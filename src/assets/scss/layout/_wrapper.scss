@@ -24,9 +24,7 @@
       }
     }
 
-    @include is-max(1091px){
-      width: 100%;
-    }
-
-  }
-  
+	@include is-max(1091px) {
+		width: 100%;
+	}
+}
