@@ -16,6 +16,10 @@
             .l-wrap{
                 position: relative;
                 z-index: 200;
+
+                @include is-sp{
+                    height: 100%;
+                }
                 .txt_info{
                     font-family: dnp-shuei-mgothic-std,sans-serif;
                     font-weight: 700;

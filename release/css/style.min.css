@@ -855,6 +855,7 @@ template{display:none}
 .u-pl-50{padding-left:25px !important}
 .page__wrapper{height:1220px}
 .page__wrapper .head_cont{height:100%}
+.page__wrapper .head_cont .l-wrap{height:100%}
 .page__wrapper .head_cont .l-wrap .txt_info{-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;text-orientation:upright;font-size:1.875rem;line-height:1.2;text-align:unset;padding-top:unset;position:absolute;top:40px;right:40px}
 .page__wrapper .head_cont .l-wrap .txt_info br{display:block}
 .page__wrapper .head_cont .l-wrap .head_dot{display:none}
