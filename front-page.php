@@ -39,10 +39,13 @@
                                         <span class="barrier"></span>
                                         <p class="para_1"><?php echo the_title(); ?></p>
                                     </div>
-                                    <a class="col_2" href="<?php echo get_permalink(); ?>">
+                                    <a class="col_2 btn_read_more active" href='javascript:;'>
                                         <p class="read_more">READ MORE</p>
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/arrow_icon.png" alt="">
                                     </a>
+                                    <div class="col_3">
+                                        <p><?php echo the_content(); ?></p>
+                                    </div>
                                 </div>
                             <?php endwhile; ?>
                         <?php endif; ?> 

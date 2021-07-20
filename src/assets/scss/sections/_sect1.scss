@@ -63,6 +63,7 @@
                         justify-content: space-between;
                         border-bottom: 1px dotted #5A3C1E;
                         align-items: flex-start;
+                        flex-wrap: wrap;
                         padding: 0 20px 15px;
                         margin-bottom: 40px;
 
@@ -122,6 +123,7 @@
                             @include is-sp {
                                 justify-content: flex-end;
                                 margin-left: auto;
+                                order: 3;
                             }
 
                             .read_more {
@@ -132,6 +134,32 @@
                                 margin-right: 9px;
                             }
 
+                            &.active{
+                            }
+
+                        }
+
+                        .col_3{
+                            width: 380px;
+                            margin-left: 130px;
+                            padding: 20px 0 40px;
+                            display: none;
+                            // max-height: 0;
+                            // overflow: hidden;
+                            // transition: max-height 0.2s ease-out;
+                            
+                            @include is-sp{
+                                width: 100%;
+                                margin-left: 0;
+                                order: 2;
+                                padding: 10px 0 25px;
+                            }
+
+                            p{
+                                @include font-line(16);
+                                font-weight: 400;
+                                font-family: noto-sans-cjk-jp, sans-serif;
+                            }
                         }
 
                         &:last-child {
