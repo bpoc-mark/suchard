@@ -12,8 +12,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/release/css/style.css">
 
-     <!-- Slick -->
-     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <script type="text/javascript">
+        var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+    </script>
 
 </head>
 <body <?php body_class(); ?>>

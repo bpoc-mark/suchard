@@ -525,7 +525,7 @@ template{display:none}
 .sect_1__wrapper .l-wrap .content .cont_1 .col_1 .para_1{font-size:1.125rem;font-weight:400;font-family:noto-sans-cjk-jp,sans-serif;width:380px}
 .sect_1__wrapper .l-wrap .content .cont_1 .col_2{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .sect_1__wrapper .l-wrap .content .cont_1 .col_2 .read_more{font-weight:400;font-family:noto-sans-cjk-jp,sans-serif;font-size:1rem;color:#e58041;margin-right:9px}
-.sect_1__wrapper .l-wrap .content .cont_1 .col_3{width:380px;margin-left:130px;padding:20px 0 40px;display:none}
+.sect_1__wrapper .l-wrap .content .cont_1 .col_3{width:380px;margin-left:130px;padding:20px 0 30px;display:none}
 .sect_1__wrapper .l-wrap .content .cont_1 .col_3 p{font-size:1rem;font-weight:400;font-family:noto-sans-cjk-jp,sans-serif}
 .sect_1__wrapper .l-wrap .content .cont_1:last-child{margin-bottom:0}
 .sect_3{background:#e58041}
