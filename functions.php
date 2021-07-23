@@ -157,47 +157,47 @@ function owp_pf_support() {
 add_action( 'after_setup_theme', 'owp_pf_support' );
 
 
-// CUSTOM POST TYPE MEAL
-add_action('init', function() {
-	register_post_type('meal', [
-		'label' => __('Meals', 'txtdomain'),
-		'public' => true,
-		'menu_position' => 5,
-		'supports' => ['title', 'editor', 'thumbnail', 'author', 'revisions', 'comments', 'excerpt'],
-		'show_in_rest' => true,
-		'rewrite' => ['slug' => 'meak'],
-		'taxonomies' => ['meal_type'],
-		'labels' => [
-			'singular_name' => __('Meal', 'txtdomain'),
-			'add_new_item' => __('Add new meal', 'txtdomain'),
-			'new_item' => __('New meal', 'txtdomain'),
-			'view_item' => __('View meal', 'txtdomain'),
-			'not_found' => __('No meals found', 'txtdomain'),
-			'not_found_in_trash' => __('No meals found in trash', 'txtdomain'),
-			'all_items' => __('All Meals', 'txtdomain'),
-			'insert_into_item' => __('Insert into meal', 'txtdomain')
-		],		
-	]);
+// // CUSTOM POST TYPE MEAL
+// add_action('init', function() {
+// 	register_post_type('meal', [
+// 		'label' => __('Meals', 'txtdomain'),
+// 		'public' => true,
+// 		'menu_position' => 5,
+// 		'supports' => ['title', 'editor', 'thumbnail', 'author', 'revisions', 'comments', 'excerpt'],
+// 		'show_in_rest' => true,
+// 		'rewrite' => ['slug' => 'meak'],
+// 		'taxonomies' => ['meal_type'],
+// 		'labels' => [
+// 			'singular_name' => __('Meal', 'txtdomain'),
+// 			'add_new_item' => __('Add new meal', 'txtdomain'),
+// 			'new_item' => __('New meal', 'txtdomain'),
+// 			'view_item' => __('View meal', 'txtdomain'),
+// 			'not_found' => __('No meals found', 'txtdomain'),
+// 			'not_found_in_trash' => __('No meals found in trash', 'txtdomain'),
+// 			'all_items' => __('All Meals', 'txtdomain'),
+// 			'insert_into_item' => __('Insert into meal', 'txtdomain')
+// 		],		
+// 	]);
  
-	register_taxonomy('meal_type', ['meal'], [
-		'label' => __('Meal Type', 'txtdomain'),
-		'hierarchical' => true,
-		'rewrite' => ['slug' => 'meal-type'],
-		'show_admin_column' => true,
-		'show_in_rest' => true,
-		'labels' => [
-			'singular_name' => __('Meal Type', 'txtdomain'),
-			'all_items' => __('All Meal Types', 'txtdomain'),
-			'edit_item' => __('Edit Meal Type', 'txtdomain'),
-			'view_item' => __('View Meal Type', 'txtdomain'),
-			'update_item' => __('Update Meal Type', 'txtdomain'),
-			'add_new_item' => __('Add New Meal Type', 'txtdomain'),
-			'new_item_name' => __('New Meal Type Name', 'txtdomain'),
-			'search_items' => __('Search Meal Types', 'txtdomain'),
-			'parent_item' => __('Parent Meal Type', 'txtdomain'),
-			'parent_item_colon' => __('Parent Meal Type:', 'txtdomain'),
-			'not_found' => __('No Meal Types found', 'txtdomain'),
-		]
-	]);
-	register_taxonomy_for_object_type('meal_type', 'meal');
-});
+// 	register_taxonomy('meal_type', ['meal'], [
+// 		'label' => __('Meal Type', 'txtdomain'),
+// 		'hierarchical' => true,
+// 		'rewrite' => ['slug' => 'meal-type'],
+// 		'show_admin_column' => true,
+// 		'show_in_rest' => true,
+// 		'labels' => [
+// 			'singular_name' => __('Meal Type', 'txtdomain'),
+// 			'all_items' => __('All Meal Types', 'txtdomain'),
+// 			'edit_item' => __('Edit Meal Type', 'txtdomain'),
+// 			'view_item' => __('View Meal Type', 'txtdomain'),
+// 			'update_item' => __('Update Meal Type', 'txtdomain'),
+// 			'add_new_item' => __('Add New Meal Type', 'txtdomain'),
+// 			'new_item_name' => __('New Meal Type Name', 'txtdomain'),
+// 			'search_items' => __('Search Meal Types', 'txtdomain'),
+// 			'parent_item' => __('Parent Meal Type', 'txtdomain'),
+// 			'parent_item_colon' => __('Parent Meal Type:', 'txtdomain'),
+// 			'not_found' => __('No Meal Types found', 'txtdomain'),
+// 		]
+// 	]);
+// 	register_taxonomy_for_object_type('meal_type', 'meal');
+// });
