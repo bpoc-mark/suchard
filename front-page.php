@@ -237,7 +237,7 @@
                             <p class="sub_desc_img mt-25">日替わりランチ</p>
                         </div>
                         <div class="mt-55" style="position: relative;">
-                            <p class="heading-title-table heading-title-primary wrap mt-70">Sweets menu <span
+                            <p class="heading-title-table heading-title-primary wrap mt-60">Sweets menu <span
                                     class="text">★11:00〜17:00</span></p>
                             <div class="accordion_item">
                                 <a class="text_sp wrap active">★11:00〜17:00 <span class="open_desc pos"><span
@@ -250,19 +250,19 @@
                                     </p>
                                     <div class="cont_slider mb-48 sp">
                                         <div class="col_img_1">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_3.png"
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_9.png"
                                                 alt="">
-                                            <p>ビーフカレー</p>
+                                            <p>パンケーキ</p>
                                         </div>
                                         <div class="col_img_1">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_4.png"
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_10.png"
                                                 alt="">
-                                            <p>親子丼</p>
+                                            <p>京風ぜんざい</p>
                                         </div>
                                         <div class="col_img_1">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5.png"
+                                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_11.png"
                                                 alt="">
-                                            <p>ミートスパゲティ</p>
+                                            <p>フルーツパフェ</p>
                                         </div>
                                     </div>
                                     <div class="wrap">
@@ -283,7 +283,7 @@
                                             <div class="col_img_1">
                                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_7.png"
                                                     alt="">
-                                                <p>親子丼</p>
+                                                <p>京風ぜんざい</p>
                                             </div>
                                             <div class="col_img_2">
                                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_8.png"
@@ -296,14 +296,14 @@
                         </div>
 
                         <div class="accordion_item mt-55" style="position: relative;">
-                            <p onclick="myFunction()" class="heading-title-table heading-title-primary wrap mt-60">Drink
+                            <p class="heading-title-table heading-title-primary wrap mt-60">Drink
                                 Menu </p><a class="open_desc active"><span class="open_txt">OPEN</span> <img
                                     class="open_img"
                                     src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/open_arrow.png"
                                     alt=""></a>
                             <!-- <p id="myDIV" class="drink_sub">以下展開イメージ</p> -->
-                            <div class="content mt-50">
-                                <div class="mt-55 wrap">
+                            <div class="content">
+                                <div class="wrap">
                                     <!-- <p class="drink_sub">以下展開イメージ</p> -->
                                     <p class="price flex mt-5">ブレンドコーヒー<span>￥400</span></p>
                                     <p class="price flex mt-5">アメリカンコーヒー<span>￥420</span></p>

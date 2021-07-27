@@ -79,7 +79,7 @@
                     letter-spacing: 0.3em;
                     padding-left: 225px;
 
-                    @include is-max(1000px){
+                    @include is-max(1070px){
                         padding-left: 100px;
                     }
                     @include is-max(850px){
@@ -179,6 +179,8 @@
                 @include is-sp{
                     top: 250px;
                     right: 40px;
+                    width: 65px;
+                    height: 65px;
                 }
             }
 

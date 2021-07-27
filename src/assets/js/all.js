@@ -78,3 +78,10 @@ $(document).ready(function(){
         
     });
 });
+
+jQuery(window).resize(function() {
+    var width = jQuery(window).width();
+    if( width > 750 ) {
+        $('.content').removeAttr('style');
+    }
+});

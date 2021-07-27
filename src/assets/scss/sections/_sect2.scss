@@ -6,8 +6,8 @@
 
 	.l-wrap {
 		@include is-max (1090px) {
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: 25px;
+			padding-right: 25px;
 		}
 
 		@include is-sp {
@@ -18,8 +18,8 @@
 
 	.wrap {
 		@include is-sp {
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: 25px;
+			padding-right: 25px;
 		}
 	}
 
@@ -125,13 +125,13 @@
 		margin: 0;
 		padding: 1rem 0;
 		list-style-type: none;
-		position: absolute;
-		bottom: -50px;
-		left: 50%;
+		// position: absolute;
+		// bottom: -50px;
+		// left: 50%;
 
-		@include is-max(371px) {
-			left: 45% !important;
-		}
+		// @include is-max(371px) {
+		// 	left: 45% !important;
+		// }
 
 		li {
 			margin: 0 5px;
@@ -145,8 +145,9 @@
 			padding: 0;
 			border: none;
 			border-radius: 100%;
-			background-color: #DCDCDC;
+			background-color: #fff;
 			text-indent: -9999px;
+			border: 1px solid #e58041;
 		}
 
 		li.slick-active button {
@@ -483,6 +484,25 @@
 						@include is-max(340px){
 							margin-top: 55px;
 							z-index: 100;
+						}
+					}
+
+					.heading-title-table{
+						margin-bottom: 0 !important;
+
+						@include is-max(980px){
+							margin-top: 200px;
+						}
+
+						@include is-sp{
+							margin-top: 80px;
+							margin-bottom: 0 !important;
+						}
+					}
+
+					.content{
+						.wrap{
+							margin-top: 40px !important;
 						}
 					}
 				}

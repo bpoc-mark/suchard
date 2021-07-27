@@ -2,7 +2,7 @@
         <div class="page__footer">
             <p class="footer_text">
                 © 2021 SUCHARD All Rights Reserved. <br>
-                Produced by ジーングロス
+                Produced by <a href="https://jeengross.jp/" target="_blank">ジーングロス</a>
             </p>
         </div>
     </main>
