@@ -351,7 +351,7 @@
                 </div>
             </div>
             <div class="sect_3__contact_info">
-                <a class="line" href="">
+                <a class="line" href="https://lin.ee/uLZzZvL" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/line_icon.png" alt="">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/line_icon_white.png" alt="">
                     <p class="txt">LINEで注文</p>
