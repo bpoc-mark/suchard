@@ -234,7 +234,7 @@
                                     </div>
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_10.png" alt="">
-                                        <p>京見ぜんざい</p>
+                                        <p>京風ぜんざい</p>
                                     </div>
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_11.png" alt="">
@@ -256,7 +256,7 @@
                                     <div class="flex mb-48 pc">
                                         <div class="col_img_1">
                                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_7.png" alt="">
-                                            <p>京見ぜんざい</p>
+                                            <p>京風ぜんざい</p>
                                         </div>
                                         <div class="col_img_2">
                                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_8.png" alt="">
