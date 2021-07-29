@@ -79,6 +79,8 @@
 					letter-spacing: 0.3em;
 					padding-left: 225px;
 
+					
+
 					@include is-max(1070px) {
 						padding-left: 150px;
 					}
@@ -97,6 +99,37 @@
 						padding-left: 0;
 						margin: 0 auto;
 						height: 1000px;
+					}
+
+					.txt_head_ani1 {
+						display: block;
+						opacity: 0;
+						span{
+							opacity: 0;
+							-webkit-transition: .6s ease-in-out;
+							transition: .6s ease-in-out;
+						}
+						
+					}
+					.txt_head_ani2 {
+						display: block;
+						opacity: 0;
+						span{
+							opacity: 0;
+							-webkit-transition: .6s ease-in-out;
+							transition: .6s ease-in-out;
+						}
+						
+					}
+					.txt_head_ani3 {
+						display: block;
+						opacity: 0;
+						span{
+							opacity: 0;
+							-webkit-transition: .6s ease-in-out;
+							transition: .6s ease-in-out;
+						}
+						
 					}
 				}
 

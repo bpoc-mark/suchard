@@ -230,15 +230,15 @@
                                 <div class="cont_slider mb-48 sp">
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_9.png" alt="">
-                                        <p>ビーフカレー</p>
+                                        <p>パンケーキ</p>
                                     </div>
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_10.png" alt="">
-                                        <p>親子丼</p>
+                                        <p>京見ぜんざい</p>
                                     </div>
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_11.png" alt="">
-                                        <p>ミートスパゲティ</p>
+                                        <p>フルーツパフェ</p>
                                     </div>
                                 </div>
                                 <div class="wrap">
@@ -256,7 +256,7 @@
                                     <div class="flex mb-48 pc">
                                         <div class="col_img_1">
                                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_7.png" alt="">
-                                            <p>親子丼</p>
+                                            <p>京見ぜんざい</p>
                                         </div>
                                         <div class="col_img_2">
                                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_8.png" alt="">

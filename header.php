@@ -48,9 +48,9 @@
                         <li></li>
                     </ul>
                     <h2 class="txt_head">
-                        挽きたての珈琲の<br>
-                        香りに包まれる<br>
-                        とっておきの時間
+                        <span class="txt_head_ani1">挽きたての珈琲の</span>
+                        <span class="txt_head_ani2">香りに包まれる</span>
+                        <span class="txt_head_ani3">とっておきの時間</span>
                     </h2>
                     <ul class="head_dot">
                         <li></li>

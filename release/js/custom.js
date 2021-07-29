@@ -77,3 +77,99 @@ jQuery(window).resize(function () {
     $('.content').removeAttr('style');
   }
 });
+$(document).ready(function () {
+  function animate1() {
+    // アニメーションさせたいクラス
+    var container = $(".txt_head_ani1"); // アニメーションスピード
+
+    var speed = 80; // テキストの間にスペースを入れます
+
+    var content = container.html();
+    var text = $.trim(content);
+    console.log(text);
+    var newHtml = ""; // スペースで区切ったテキストを、テキストの数だけspanで囲む
+
+    text.split("").forEach(function (v) {
+      newHtml += '<span>' + v + '</span>';
+    }); // spanで囲んだテキスト群をHTMLに戻す
+
+    container.html(newHtml); // 1文字ずつ表示
+
+    var txtNum = 0;
+    container.css({
+      opacity: 1
+    });
+    setInterval(function () {
+      container.find('span').eq(txtNum).css({
+        opacity: 1
+      });
+      txtNum++;
+    }, speed);
+  }
+
+  function animate2() {
+    // アニメーションさせたいクラス
+    var container = $(".txt_head_ani2"); // アニメーションスピード
+
+    var speed = 80; // テキストの間にスペースを入れます
+
+    var content = container.html();
+    var text = $.trim(content);
+    console.log(text);
+    var newHtml = ""; // スペースで区切ったテキストを、テキストの数だけspanで囲む
+
+    text.split("").forEach(function (v) {
+      newHtml += '<span>' + v + '</span>';
+    }); // spanで囲んだテキスト群をHTMLに戻す
+
+    container.html(newHtml); // 1文字ずつ表示
+
+    var txtNum = 0;
+    container.css({
+      opacity: 1
+    });
+    setInterval(function () {
+      container.find('span').eq(txtNum).css({
+        opacity: 1
+      });
+      txtNum++;
+    }, speed);
+  }
+
+  function animate3() {
+    // アニメーションさせたいクラス
+    var container = $(".txt_head_ani3"); // アニメーションスピード
+
+    var speed = 80; // テキストの間にスペースを入れます
+
+    var content = container.html();
+    var text = $.trim(content);
+    console.log(text);
+    var newHtml = ""; // スペースで区切ったテキストを、テキストの数だけspanで囲む
+
+    text.split("").forEach(function (v) {
+      newHtml += '<span>' + v + '</span>';
+    }); // spanで囲んだテキスト群をHTMLに戻す
+
+    container.html(newHtml); // 1文字ずつ表示
+
+    var txtNum = 0;
+    container.css({
+      opacity: 1
+    });
+    setInterval(function () {
+      container.find('span').eq(txtNum).css({
+        opacity: 1
+      });
+      txtNum++;
+    }, speed);
+  }
+
+  animate1();
+  setTimeout(function () {
+    animate2();
+  }, 1000);
+  setTimeout(function () {
+    animate3();
+  }, 1800);
+});
