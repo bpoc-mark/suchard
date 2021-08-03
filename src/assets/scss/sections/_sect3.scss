@@ -17,11 +17,17 @@
 		}
 	}
 
-	&__takeout img {
-		position: absolute;
-		transform: translate(-50%, -50%);
-		top: 0;
-		left: 50%;
+	// &__takeout img {
+	// 	position: absolute;
+	// 	transform: translate(-50%, -50%);
+	// 	top: 0;
+	// 	left: 50%;
+	// }
+
+	&__takeout {
+		text-align: center;
+		margin-top: -260px;
+		margin-bottom: 30px;
 	}
 
 	&__pack {

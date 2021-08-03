@@ -28,6 +28,9 @@
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script type="text/javascript">
         var templateUrl = '<?= get_bloginfo("template_url"); ?>';
     </script>

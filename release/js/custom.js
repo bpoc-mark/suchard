@@ -172,4 +172,15 @@ $(document).ready(function () {
   setTimeout(function () {
     animate3();
   }, 1800);
+  window.addEventListener('scroll', function () {
+    var element = document.querySelector('.animate__animated');
+    var position = element.getBoundingClientRect(); // checking whether fully visible
+
+    if (position.top >= 0 && position.bottom <= window.innerHeight) {
+      element.classList.add('animate__shakeX');
+    }
+  });
+});
+ScrollReveal().reveal('.heading-title span', {
+  interval: 80
 });

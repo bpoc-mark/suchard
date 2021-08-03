@@ -415,6 +415,7 @@
 
 			.flex {
 				display: flex;
+				flex-wrap: wrap;
 				justify-content: space-between;
 				align-items: center;
 				margin-top: 48px;
@@ -461,6 +462,7 @@
 				padding: 11px 0;
 				margin-top: 50px;
 				letter-spacing: -1px;
+				justify-content: center;
 
 				@include is-sp {
 					margin-left: 20px;
@@ -497,6 +499,14 @@
 			.w-48 {
 				@include is-sp {
 					width: 48%;
+				}
+
+				@include is-max(500px){
+					width: 100%;
+
+					&:nth-of-type(1){
+						margin-bottom: 20px;
+					}
 				}
 			}
 		}
@@ -645,7 +655,7 @@
 			}
 
 			.pos_img {
-				width: 615px;
+				width: 605px;
 				height: 374px;
 				position: relative;
 
@@ -824,10 +834,10 @@
 				position: relative;
 
 				@include is-sp {
-					@include font-line(16);
-					font-family: noto-sans-cjk-jp, sans-serif;
-					font-weight: 500;
-					color: #5a3c1e;
+					// @include font-line(16);
+					// font-family: noto-sans-cjk-jp, sans-serif;
+					// font-weight: 500;
+					// color: #5a3c1e;
 					padding-top: 2px;
 					padding-bottom: 6px;
 				}
