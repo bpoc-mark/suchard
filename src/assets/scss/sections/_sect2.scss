@@ -491,6 +491,12 @@
 				}
 			}
 
+			.col_img:first-child {
+				@include is-pc {
+					margin-bottom: 40px;
+				}
+			}
+
 			.col_img {
 				@include is-pc {
 					width: 100%;
