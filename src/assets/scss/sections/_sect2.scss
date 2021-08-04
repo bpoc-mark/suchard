@@ -55,8 +55,23 @@
 	.br_sp {
 		display: none;
 
-		@include is-sp {
+		@include is-max(500px) {
 			display: block;
+		}
+	}
+
+	.br_sp_min {
+		display: none;
+
+		@include is-max(375px) {
+			display: block;
+		}
+	}
+
+	.laps_price {
+		@include is-max(500px) {
+			position: absolute;
+			right: 0;
 		}
 	}
 
@@ -501,10 +516,10 @@
 					width: 48%;
 				}
 
-				@include is-max(500px){
+				@include is-max(500px) {
 					width: 100%;
 
-					&:nth-of-type(1){
+					&:nth-of-type(1) {
 						margin-bottom: 20px;
 					}
 				}
