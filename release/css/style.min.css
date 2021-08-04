@@ -585,7 +585,9 @@ template{display:none}
 .sect_2__row-table .column-1 .price{font-size:1.375rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:400;color:#5a3c1e}
 .sect_2__row-table .column-1 .flex{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:48px;position:relative}
 .sect_2__row-table .column-1 .flex p{font-size:1rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:500;color:#5a3c1e;padding-top:2px;padding-bottom:6px}
-.sect_2__row-table .column-1 .desc{font-size:1.125rem;font-weight:400;color:#5a3c1e}
+.sect_2__row-table .column-1 .col_img{text-align:center}
+.sect_2__row-table .column-1 .col_img img{width:80%;margin:0 auto}
+.sect_2__row-table .column-1 .desc{font-size:1.125rem;font-weight:400;color:#5a3c1e;text-align:left}
 .sect_2__row-table .column-1 .btm-desc{font-size:1.125rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#5a3c1e;text-align:center;border:1px solid #5a3c1e;padding:11px 0;margin-top:50px;letter-spacing:-1px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .sect_2__row-table .column-1 .sub-title{font-size:1.125rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#e58041;margin-top:10px}
 .sect_2__row-table .column-1 .sub-desc{font-size:1.125rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:400}
@@ -1041,7 +1043,8 @@ template{display:none}
 .sect_2__row-table .column-1 .text{display:none}
 .sect_2__row-table .column-1 .text_sp{display:block}
 .sect_2__row-table .column-1 .flex{-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}
-.sect_2__row-table .column-1 .col_img{width:100%;margin:0 auto}
+.sect_2__row-table .column-1 .col_img img{width:100%}
+.sect_2__row-table .column-1 .col_img{width:100%;margin:0 auto;text-align:center}
 .sect_2__row-table .column-1 .btm-desc{margin-left:20px;margin-right:20px}
 .sect_2__row-table .column-1 .w-48{width:48%}
 .sect_2__row-table .column-2 .mt-55:nth-of-type(3) .heading-title-table{margin-top:80px;margin-bottom:0 !important}

@@ -110,7 +110,7 @@
                                 <div class="wrap">
                                     <div class="col_img mt-50">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_1.png"
-                                            alt="">
+                                            alt="" data-aos="fade-up" data-aos-duration="1000">
                                         <p class="price flex mt-0 mt-15" data-aos="fade-up" data-aos-duration="1000">
                                             Aset
                                             <span>￥450</span>
@@ -123,7 +123,7 @@
 
                                     <div class="col_img mt-50">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_2.png"
-                                            alt="">
+                                            alt="" data-aos="fade-up" data-aos-duration="1000">
                                         <p class="price flex mt-0 mt-15" data-aos="fade-up" data-aos-duration="1000">
                                             Bset
                                             <span>￥550</span>
@@ -190,7 +190,7 @@
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
                                             alt="">
-                                        <p>メニュー名が入ります</p>
+                                        <p>日替わりランチ</p>
                                     </div>
                                 </div>
                                 <div class="cont_slider mb-48 sp-sec" data-aos="fade-up" data-aos-duration="1000">
@@ -212,7 +212,7 @@
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
                                             alt="">
-                                        <p>メニュー名が入ります</p>
+                                        <p>日替わりランチ</p>
                                     </div>
                                 </div>
                                 <div class="wrap">

@@ -498,9 +498,19 @@
 			}
 
 			.col_img {
+				text-align: center;
 				@include is-pc {
 					width: 100%;
 					margin: 0 auto;
+				}
+				
+				img{
+					width: 80%;
+					margin:0 auto;
+					
+					@include is-sp{
+						width: 100%;
+					}
 				}
 			}
 
@@ -508,6 +518,7 @@
 				@include is-sp {
 					width: 100%;
 					margin: 0 auto;
+					text-align: center;
 				}
 			}
 
@@ -521,6 +532,7 @@
 				@include font-line(18);
 				font-weight: 400;
 				color: #5a3c1e;
+				text-align: left;
 			}
 
 			.btm-desc {
