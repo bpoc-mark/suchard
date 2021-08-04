@@ -95,7 +95,7 @@
                             <p class="text_sp wrap mb-20" data-aos="fade-up" data-aos-duration="1000">★サービスタイム7:00～11:00
                             </p>
                             <div class="content">
-                                <div class="flex sp wrap">
+                                <!-- <div class="flex sp wrap">
                                     <div class="w-48">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_1.png"
                                             alt="">
@@ -106,32 +106,37 @@
                                             alt="">
                                         <p>Bset</p>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="wrap">
-                                    <p class="price flex" data-aos="fade-up" data-aos-duration="1000">Aset
-                                        <span>￥450</span>
-                                    </p>
-                                    <p class="desc" data-aos="fade-up" data-aos-duration="1000">トースト／ゆでたまご／サラダ／コーヒー OR
-                                        紅茶 </p>
-                                    <p class="price flex" data-aos="fade-up" data-aos-duration="1000">Bset
-                                        <span>￥550</span>
-                                    </p>
-                                    <p class="desc" data-aos="fade-up" data-aos-duration="1000">ミックスサンド／コーヒー OR 紅茶</p>
+                                    <div class="col_img mt-50">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_1.png"
+                                            alt="">
+                                        <p class="price flex mt-0 mt-15" data-aos="fade-up" data-aos-duration="1000">
+                                            Aset
+                                            <span>￥450</span>
+                                        </p>
+                                        <p class="desc mb-15" data-aos="fade-up" data-aos-duration="1000">
+                                            トースト／ゆでたまご／サラダ／コーヒー
+                                            OR
+                                            紅茶 </p>
+                                    </div>
+
+                                    <div class="col_img mt-50">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_2.png"
+                                            alt="">
+                                        <p class="price flex mt-0 mt-15" data-aos="fade-up" data-aos-duration="1000">
+                                            Bset
+                                            <span>￥550</span>
+                                        </p>
+                                        <p class="desc mb-15 " data-aos="fade-up" data-aos-duration="1000">ミックスサンド／コーヒー
+                                            OR 紅茶
+                                        </p>
+                                    </div>
                                 </div>
                                 <p class="btm-desc sp" data-aos="fade-up" data-aos-duration="1000">※アイスコーヒーに変更+50円</p>
                             </div>
-                            <div class="flex pc" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="col_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_1.png"
-                                        alt="">
-                                    <p class="">Aset</p>
-                                </div>
-                                <div class="col_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_2.png"
-                                        alt="">
-                                    <p class="">Bset</p>
-                                </div>
-                            </div>
+                            <!-- <div class="flex pc" data-aos="fade-up" data-aos-duration="1000">
+                            </div> -->
                             <p class="btm-desc min-tp pc" data-aos="fade-up" data-aos-duration="1000">※アイスコーヒーに変更+50円
                             </p>
                         </div>
