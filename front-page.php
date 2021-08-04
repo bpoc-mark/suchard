@@ -183,7 +183,7 @@
                                         <p>ミートスパゲティ</p>
                                     </div>
                                     <div class="col_img_1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
                                             alt="">
                                         <p>メニュー名が入ります</p>
                                     </div>
@@ -205,7 +205,7 @@
                                         <p>ミートスパゲティ</p>
                                     </div>
                                     <div class="col_img_1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
                                             alt="">
                                         <p>メニュー名が入ります</p>
                                     </div>
