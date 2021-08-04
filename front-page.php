@@ -211,44 +211,50 @@
                                     </div>
                                 </div>
                                 <div class="wrap">
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <span>玉子丼<span class="sub-desc"><br class="br_sp_min">（味噌汁、漬物付き）</span>
                                         </span><span>￥650</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <span>親子丼<span class="sub-desc"><br class="br_sp_min">（味噌汁、漬物付き）</span>
                                         </span><span>￥700</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000"><span>牛丼<span
-                                                class="sub-desc"><br class="br_sp_min">（味噌汁、漬物付き）</span>
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000"><span>牛丼<span class="sub-desc"><br
+                                                    class="br_sp_min">（味噌汁、漬物付き）</span>
                                         </span><span>￥700</span></p>
                                     <p class="sub-title" data-aos="fade-up" data-aos-duration="1000">ごはん大盛り無料<br
                                             class="br_pc"><br class="br_sp">／+50円でサラダが追加できます。
                                     </p>
                                     <hr data-aos="fade-up" data-aos-duration="1000">
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <span>ピラフ<span class="sub-desc"><br class="br_sp_min">（サラダ付き）</span>
                                         </span><span>￥750</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <span>ビーフカレー<span class="sub-desc"><br class="br_sp_min">（サラダ付き）</span>
                                         </span><span>￥750</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp_min" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <span>オムライス<span class="sub-desc"><br class="br_sp_min">（サラダ付き）</span>
                                         </span><span>￥750</span>
                                     </p>
                                     <p class="sub-title" data-aos="fade-up" data-aos-duration="1000">ごはん大盛り無料</p>
                                     <hr data-aos="fade-up" data-aos-duration="1000">
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-5 line_h_sp" data-aos="fade-up" data-aos-duration="1000">
                                         <span>焼きそば定食<span class="sub-desc"><br class="br_sp">（ご飯、漬物、みそ汁）</span>
                                         </span><span>￥750</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp" data-aos="fade-up" data-aos-duration="1000">
                                         <span>オムそば定食<span class="sub-desc"><br class="br_sp">（ご飯、漬物、みそ汁）</span>
                                         </span><span>￥800</span>
                                     </p>
-                                    <p class="price flex mt-5" data-aos="fade-up" data-aos-duration="1000">
+                                    <p class="price flex mt-20 line_h_sp" data-aos="fade-up" data-aos-duration="1000">
                                         <span>きつね定食<span class="sub-desc ls"><br class="br_sp">（きつねうどん・そば+ミニ玉子丼）</span>
                                         </span><span class="laps_price">￥800</span>
                                     </p>
@@ -323,13 +329,14 @@
                                     </div>
                                 </div>
                                 <div class="wrap">
-                                    <div class="flex flex_start" data-aos="fade-up" data-aos-duration="1000">
+                                    <div class="flex flex_start line_h_sp" data-aos="fade-up" data-aos-duration="1000">
                                         <div class="price">京風ぜんざい<span class="price_desc"><br
                                                     class="br_sp">日本茶とご一緒に…</span>
                                         </div>
                                         <div class="price">￥550</div>
                                     </div>
-                                    <div class="flex flex_start mt-0" data-aos="fade-up" data-aos-duration="1000">
+                                    <div class="flex flex_start mt-5 mt-10-sp line_h_sp" data-aos="fade-up"
+                                        data-aos-duration="1000">
                                         <div class="price">パンケーキ<span class="price_desc"><br
                                                     class="br_sp">自家製ブルーベリージャム</span>
                                         </div>

@@ -620,6 +620,7 @@ template{display:none}
 .sect_2__row-table .mb-48{margin-bottom:48px}
 .sect_2__row-table .mt-5{margin-top:5px !important}
 .sect_2__row-table .mb-20{margin-bottom:20px}
+.sect_2__row-table .mt-20{margin-top:20px !important}
 .sect_2__row-table .mt-25{margin-top:-25px}
 .sect_2__row-table .mt-60{margin-top:60px}
 .sect_2__row-table .mt-70{margin-top:70px}
@@ -1091,13 +1092,16 @@ template{display:none}
 .sect_4__wrapper .l-wrap .sect_4__header .header_body_content .contact_info p{font-size:1.25rem;padding-left:5px}
 }@media only screen and (max-width:520px){.sect_2__row-table .column-1{width:100%}
 .sect_2__row-table .column-2{width:100%}
-}@media only screen and (max-width:500px){.sect_2 .br_sp{display:block}
+}@media only screen and (max-width:500px){.sect_2 .br_sp{display:block;line-height:25px}
+.sect_2 .line_h_sp{line-height:20px}
 .sect_2 .laps_price{position:absolute;right:0}
 .sect_2__row-table .column-1 .w-48{width:100%}
 .sect_2__row-table .column-1 .w-48:nth-of-type(1){margin-bottom:20px}
+.sect_2__row-table .mt-10-sp{margin-top:10px !important}
 }@media only screen and (max-width:496px){.sect_2__row-table .column-1 .text{padding-top:16px}
 .sect_2__row-table .column-2 .text{padding-top:16px}
 }@media only screen and (max-width:375px){.sect_2 .br_sp_min{display:block}
+.sect_2 .line_h_sp_min{line-height:20px}
 }@media only screen and (max-width:370px){.page__wrapper .head_cont .head_img_1{width:85%}
 .page__wrapper .head_cont .head_img_2{width:95%}
 }@media only screen and (max-width:369px){.sect_4__wrapper .l-wrap .sect_4__header .header_content .text_content .small_text{width:100%;text-align:center}
