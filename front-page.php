@@ -107,7 +107,7 @@
                                         <p>Bset</p>
                                     </div>
                                 </div> -->
-                                <div class="wrap">
+                                <div class="wrap dblock">
                                     <div class="col_img mt-50">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_1.png"
                                             alt="" data-aos="fade-up" data-aos-duration="1000">
@@ -116,7 +116,7 @@
                                             <span>￥450</span>
                                         </p>
                                         <p class="desc mb-15" data-aos="fade-up" data-aos-duration="1000">
-                                            トースト／ゆでたまご／サラダ／コーヒー
+                                            トースト／ゆでたまご／<br class="br_pc-p"><br class="br_sp-p">サラダ／コーヒー
                                             OR
                                             紅茶 </p>
                                     </div>
@@ -128,7 +128,8 @@
                                             Bset
                                             <span>￥550</span>
                                         </p>
-                                        <p class="desc mb-15 " data-aos="fade-up" data-aos-duration="1000">ミックスサンド／コーヒー
+                                        <p class="desc mb-15 " data-aos="fade-up" data-aos-duration="1000">
+                                            ミックスサンド／<br class="br_pc-p"><br class="br_sp-p">コーヒー
                                             OR 紅茶
                                         </p>
                                     </div>

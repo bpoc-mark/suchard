@@ -48,6 +48,18 @@
 		margin-right: 5px;
 	}
 
+	.br_pc-p {
+		display: none;
+
+		@include is-pc {
+			display: block;
+		}
+	}
+
+	.br_sp-p {
+		display: none;
+	}
+
 	.br_pc {
 		display: none;
 	}
@@ -516,7 +528,7 @@
 				}
 
 				img {
-					width: 80%;
+					width: 100%;
 					margin: 0 auto;
 
 					@include is-sp {
@@ -627,6 +639,14 @@
 					sans-serif;
 				font-weight: 400;
 				color: #5a3c1e;
+			}
+
+			.dblock {
+				@include is-pc {
+					display: flex;
+					justify-content: space-between;
+					column-gap: 20px;
+				}
 			}
 		}
 
