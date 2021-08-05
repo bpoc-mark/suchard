@@ -323,8 +323,17 @@
 			.mt-55 {
 				&:nth-of-type(3) {
 					.open_desc {
-						@include is-max(340px) {
-							margin-top: 105px;
+						@include is-max(395px) {
+							margin-top: 70px;
+							z-index: 100;
+						}
+					}
+				}
+
+				&:nth-of-type(4) {
+					.open_desc {
+						@include is-max(365px) {
+							margin-top: 70px;
 							z-index: 100;
 						}
 					}
@@ -346,10 +355,10 @@
 			}
 
 			.sp {
-				display: none !important;
+				display: none;
 
 				@include is-sp {
-					display: flex !important;
+					display: block;
 				}
 			}
 
@@ -473,7 +482,8 @@
 				position: relative;
 
 				@include is-sp {
-					align-items: baseline;
+					// align-items: baseline;
+					align-items: flex-start;
 				}
 
 				// @include is-max(970px) {
@@ -499,16 +509,17 @@
 
 			.col_img {
 				text-align: center;
+
 				@include is-pc {
 					width: 100%;
 					margin: 0 auto;
 				}
-				
-				img{
+
+				img {
 					width: 80%;
-					margin:0 auto;
-					
-					@include is-sp{
+					margin: 0 auto;
+
+					@include is-sp {
 						width: 100%;
 					}
 				}
@@ -592,7 +603,34 @@
 					}
 				}
 			}
+
+			.col_img_2 {
+				// position: absolute;
+				// width: 370px;
+				// right: -100px;
+				// height: 286px;
+				// top: 30px;
+				width: 48%;
+
+				@include is-max(1400px) {
+					// width: 75%;
+					// right: 0;
+					// height: auto;
+					// top: -2%;
+					width: 48%;
+				}
+			}
+
+			.price_desc {
+				@include font-line(18);
+				font-family: noto-sans-cjk-jp,
+					sans-serif;
+				font-weight: 400;
+				color: #5a3c1e;
+			}
 		}
+
+		// End Column 1
 
 		.column-2 {
 			width: 460px;
@@ -607,27 +645,35 @@
 				width: 100%;
 			}
 
+			.ls {
+				letter-spacing: -1px;
+			}
+
+			.ls-2 {
+				letter-spacing: -1.6px;
+			}
+
 			.mt-55 {
-				&:nth-of-type(3) {
+				&:nth-of-type(2) {
 					.open_desc {
-						@include is-max(340px) {
-							margin-top: 55px;
+						@include is-max(345px) {
+							margin-top: 100px;
 							z-index: 100;
 						}
 					}
 
-					.heading-title-table {
-						margin-bottom: 0 !important;
+					// .heading-title-table {
+					// 	margin-bottom: 0 !important;
 
-						@include is-max(980px) {
-							margin-top: 200px;
-						}
+					// 	@include is-max(980px) {
+					// 		margin-top: 200px;
+					// 	}
 
-						@include is-sp {
-							margin-top: 80px;
-							margin-bottom: 0 !important;
-						}
-					}
+					// 	@include is-sp {
+					// 		margin-top: 80px;
+					// 		margin-bottom: 0 !important;
+					// 	}
+					// }
 
 					.content {
 						.wrap {
@@ -692,7 +738,7 @@
 				margin-bottom: 50px;
 
 				@include is-sp {
-					margin-bottom: 30px !important;
+					margin-bottom: 18px !important;
 					display: flex;
 					align-items: center;
 					justify-content: space-between;
@@ -762,7 +808,8 @@
 						font-weight: 500;
 						text-align: right;
 						position: relative;
-						top: -25px;
+						// top: -25px;
+						margin-top: 20px;
 
 						@include is-sp {
 							display: none;
@@ -861,11 +908,12 @@
 			}
 
 			.col_img_2 {
-				position: absolute;
-				width: 370px;
-				right: -100px;
-				height: 286px;
-				top: 30px;
+				// position: absolute;
+				// width: 370px;
+				// right: -100px;
+				// height: 286px;
+				// top: 30px;
+				width: 48%;
 
 				@include is-max(1400px) {
 					width: 75%;
@@ -923,6 +971,7 @@
 					// color: #5a3c1e;
 					padding-top: 2px;
 					padding-bottom: 6px;
+					align-items: flex-start;
 				}
 			}
 
@@ -948,7 +997,27 @@
 				// margin-top: 65px;
 				margin-bottom: 50px;
 			}
+
+			.col_img_1 {
+				width: 48%;
+			}
+
+			.sp-sec {
+				display: none !important;
+
+				@include is-sp {
+					display: block !important;
+				}
+			}
+
+			.sub-desc {
+				@include font-line(18);
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 400;
+			}
 		}
+
+		// End Column 2
 
 		hr {
 			border-top: 2px dotted #e58041;
@@ -986,6 +1055,18 @@
 			margin-top: -25px;
 		}
 
+		.mt-40-pri {
+			@include is-sp {
+				margin-top: 40px;
+			}
+		}
+
+		.mb-22 {
+			@include is-sp {
+				margin-bottom: 60px !important;
+			}
+		}
+
 		.mt-40 {
 			@include is-sp {
 				margin-bottom: 40px;
@@ -999,7 +1080,7 @@
 		}
 
 		.mt-60 {
-			margin-top: 60px;
+			margin-top: 60px !important;
 		}
 
 		.mt-70 {
