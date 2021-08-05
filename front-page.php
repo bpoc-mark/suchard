@@ -363,7 +363,7 @@
                                         <div class="col_img_2">
                                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_8.jpg"
                                                 alt="">
-                                            <p>&nbsp;</p>
+                                            <p>パンケーキ</p>
                                         </div>
                                     </div>
                                 </div>
@@ -374,7 +374,7 @@
                     <div class="accordion_item mt-55" style="position: relative;">
                         <p onclick="myFunction()" class="heading-title-table heading-title-primary wrap mt-60 mb-22"
                             data-aos="fade-up" data-aos-duration="1000">Drink
-                            Menu </p><a class="open_desc active" data-aos="fade-up" data-aos-duration="1000"><span
+                            menu </p><a class="open_desc active" data-aos="fade-up" data-aos-duration="1000"><span
                                 class="open_txt">OPEN</span> <img class="open_img"
                                 src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/open_arrow.png"
                                 alt=""></a>
