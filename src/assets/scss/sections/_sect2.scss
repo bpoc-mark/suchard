@@ -336,7 +336,7 @@
 				&:nth-of-type(3) {
 					.open_desc {
 						@include is-max(395px) {
-							margin-top: 70px;
+							margin-top: 0px;
 							z-index: 100;
 						}
 					}

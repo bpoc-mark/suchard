@@ -1121,7 +1121,7 @@ template{display:none}
 .sect_2__row-table .mt-10-sp{margin-top:10px !important}
 }@media only screen and (max-width:496px){.sect_2__row-table .column-1 .text{padding-top:16px}
 .sect_2__row-table .column-2 .text{padding-top:16px}
-}@media only screen and (max-width:395px){.sect_2__row-table .column-1 .mt-55:nth-of-type(3) .open_desc{margin-top:70px;z-index:100}
+}@media only screen and (max-width:395px){.sect_2__row-table .column-1 .mt-55:nth-of-type(3) .open_desc{margin-top:0;z-index:100}
 }@media only screen and (max-width:375px){.sect_2 .br_sp_min{display:block}
 .sect_2 .line_h_sp_min{line-height:20px}
 }@media only screen and (max-width:370px){.page__wrapper .head_cont .head_img_1{width:85%}

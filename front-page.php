@@ -295,9 +295,10 @@
                         <p class="heading-title-table heading-title-primary wrap mt-70" data-aos="fade-up"
                             data-aos-duration="1000">Sweets menu <span class="text" data-aos="fade-up"
                                 data-aos-duration="1000">★11:00〜17:00</span></p>
-                        <div class="accordion_item">
+                        <div class="accordion_item" data-aos="fade-up"
+                                data-aos-duration="1000">
                             <a class="text_sp wrap active"><span data-aos="fade-up"
-                                    data-aos-duration="1000">★11:00〜17:00</span> <span class="open_desc pos"><span
+                                    data-aos-duration="2000">★11:00〜17:00</span> <span class="open_desc pos"><span
                                         class="open_txt" data-aos="fade-up" data-aos-duration="1000">OPEN</span> <img
                                         class="open_img" data-aos="fade-up" data-aos-duration="1000"
                                         src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/open_arrow.png"
