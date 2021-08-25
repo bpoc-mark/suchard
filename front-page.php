@@ -317,6 +317,11 @@
                                             alt="">
                                         <p>フルーツパフェ</p>
                                     </div>
+                                    <div class="col_img_1" data-aos="fade-up" data-aos-duration="1000">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_8.jpg"
+                                            alt="">
+                                        <p>パンケーキ</p>
+                                    </div>
                                     <!-- <div class="col_img_1" data-aos="fade-up" data-aos-duration="1000">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_9.png"
                                             alt="">
@@ -597,50 +602,58 @@
                                     <p class="sub-title">ごはん大盛り無料</p>
                                 </div>
                                 <div class="flex mb-48 pc" data-aos="fade-up" data-aos-duration="1000">
+                                    <!-- Daily lunch -->
+                                    <div class="col_img_1">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
+                                            alt="">
+                                        <p>日替わりランチ</p>
+                                    </div>
+                                    <!-- Beef curry -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_3.png"
                                             alt="">
                                         <p>ビーフカレー</p>
                                     </div>
+                                </div>
+                                <div class="flex mb-48 pc" data-aos="fade-up" data-aos-duration="1000">
+                                    <!-- Oyakodon -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_4.png"
                                             alt="">
                                         <p>親子丼</p>
                                     </div>
-                                </div>
-                                <div class="flex mb-48 pc" data-aos="fade-up" data-aos-duration="1000">
+                                    <!-- Meat spaghetti -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5.png"
                                             alt="">
                                         <p>ミートスパゲティ</p>
-                                    </div>
-                                    <div class="col_img_1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
-                                            alt="">
-                                        <p>日替わりランチ</p>
                                     </div>
                                 </div>
                                 <!-- Cont Slider -->
                                 <div class="cont_slider mt-40-pri sp-sec" data-aos="fade-up" data-aos-duration="1000">
+                                    <!-- Daily lunch -->
+                                    <div class="col_img_1">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
+                                            alt="">
+                                        <p>日替わりランチ</p>
+                                    </div>
+                                    <!-- Beef curry -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_3.png"
                                             alt="">
                                         <p>ビーフカレー</p>
                                     </div>
+                                    <!-- Oyakodon -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_4.png"
                                             alt="">
                                         <p>親子丼</p>
                                     </div>
+                                    <!-- Meat spaghetti -->
                                     <div class="col_img_1">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5.png"
                                             alt="">
                                         <p>ミートスパゲティ</p>
-                                    </div>
-                                    <div class="col_img_1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_2/sect_2_img_5_dummy.JPG"
-                                            alt="">
-                                        <p>日替わりランチ</p>
                                     </div>
                                 </div>
                                 <div class="wrap">
@@ -781,7 +794,7 @@
                 </div>
             </div>
             <div class="sect_3__contact_info">
-                <a class="line" href="https://lin.ee/uLZzZvL" target="_blank" data-aos="fade-up"
+                <a class="line" href="https://lin.ee/XscVr0N" target="_blank" data-aos="fade-up"
                     data-aos-duration="1000">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/line_icon.png" alt="">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/line_icon_white.png"
