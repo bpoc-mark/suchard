@@ -84,11 +84,14 @@
 				line-height: 1.5;
 				text-align: center;
 				font-family: noto-sans-cjk-jp, sans-serif;
-
 				@include font-line(50);
 
 				@include is-sp {
 					padding: 0 0 45px 0;
+				}
+
+				@include is-max(500px){
+					font-size: 9vw;
 				}
 			}
 
