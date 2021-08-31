@@ -3,8 +3,8 @@
 ##### Table of Contents
 
 -   [:pushpin: Prerequisites](#Prerequisites)
--   [:rocket: Installing Hipe Asia](#Installing)
--   [:computer: Usage of Hipe Asia](#Usage)
+-   [:rocket: Installing Suchard](#Installing)
+-   [:computer: Usage of Suchard](#Usage)
 -   [:mailbox: Credits](#Credits)
 
 ## <a name='Prerequisites'></a> :pushpin: Prerequisites
